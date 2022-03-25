@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(21, 21, 21);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.smpropic {
+  width: 30px;
+  margin-right: 7px;
+}
+
+/* Nav bar start */
+.nav {
+  position: fixed;
+  top: 0px;
+  background-color: rgb(82, 79, 79);
+  color: darkcyan;
+  padding: 20px 80px;
+  width: 100%;
+  justify-content: space-between;
+}
+.profilehome {
+  gap: 40px;
+}
+.nav-links {
+  list-style: none;
+  gap: 40px;
+}
+.signout {
+  background-color: darkcyan;
+  border: 3px solid black;
+  padding: 7px 15px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-shadow: 3px 3px 3px black;
+  font-weight: 600;
+}
+.signout:active {
+  box-shadow: 3px 3px 3px rgb(82, 79, 79);
+  position: relative;
+  left: 1px;
+}
+.signout:hover {
+  cursor: pointer;
+}
+ul li a {
+  color: tan;
+  text-decoration-line: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Nav bar end */
+
+/* two coloumn start */
+.pl {
+  margin: 80px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.col {
+
+  min-height: 250px;
+}
+.leftc {
+  flex: 3;
+}
+.rightc {
+  flex: 2;
+}
+/* Two column end */
+
+/* Profile Card Start */
+.container {
+  min-height: 250px;
+  width: 100%;
+  border: 2px solid gray;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: tan;
+
+}
+.bluebanner {
+  background-color: darkcyan;
+  height: 100px;
+  margin: -2px;
+}
+.contact {
+margin-left: 40px;
+}
+.propic {
+width: 100px;
+margin-top: -45px;
+margin-left: 40px;
+}
+.mapmark {
+  width: 15px;
+  margin: 10px;
+}
+p {margin: 2px;
+  margin-bottom: 5px;
+}
+.edit{
+  width: 20px;
+  margin: 10px;
+  
+}
+/* Profile Card end */
+
+/* Education Card Start */
+  /* Black Bar */
+.greybar {
+  background-color: darkcyan;
+  min-height: 45px;
+  margin-top: -2px;
+  padding: 8px;
+}
+.edu {
+  color: white;
+  padding: 20px 40px;
+}
+  /* Black Bar end */
+
+  /* Education info */
+.codinginfo {
+  padding: 20px 40px;
+}
+/* Education Card End */
+.rightc {
+  align-self: flex-start;
+  margin-top: 40px;
+}
+
+/* Request box */
+.requestpro {
+  padding: 10px;
+}
+.request {
+  min-height: 150px;
+  border: 2px solid grey;
+  width: 75%;
+  margin-bottom: 40px;
+  background-color: tan;
+}
+.textr {
+  color: white;
+  font-size: 18px;
+}
+.concircle{
+  text-align: center;
+  background-color: tan;
+  width: 25px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.conheader {
+  justify-content: space-evenly;
+}
+
+.reqlist {
+  background-color:tan;
+  padding: 10px;
+  min-height: 50px;
+  justify-content: space-between;
+}
+.checkbtn {
+  background-color: tan;
+  border-style: none;
+}
+.smpropic:hover {
+  cursor: pointer;
+/* request */
+}
+
+/* connections */
+
+.connectioncircle {
+  text-align: center;
+  background-color: tan;
+  width: 55px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.consmpic {
+  margin: 10px;
+}
+.hyper {
+  min-height: 50px;
+  border-top: 3px solid grey;
+  width: 100%;
+}
+.view {
+  margin: 12px;
+}
