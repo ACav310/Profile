@@ -41,6 +41,15 @@ body {
   list-style: none;
   gap: 40px;
 }
+
+.search {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
 .signout {
   background-color: darkcyan;
   border: 3px solid black;
