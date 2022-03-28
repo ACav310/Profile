@@ -241,3 +241,13 @@ p {margin: 2px;
 .todd {
   border-radius: 20px;
 }
+
+
+
+
+.scrollbox {
+  min-height: 500px;
+  border: 2px dotted aquamarine;
+  color: white;
+  margin-top: 30px;
+}
