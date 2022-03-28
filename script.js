@@ -20,3 +20,6 @@ function hide(inviteb) {
 
   // edit number of requests and connections upon click
 }// --------------------------------------------------------
+
+
+// drop down menu
