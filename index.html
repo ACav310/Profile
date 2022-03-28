@@ -9,30 +9,22 @@
 </head>
 <body>
 
-
   <!-- Nav Bar start -->
 
 <div class="nav flex">
-
   <div class="profilehome flex"> 
-    
     <h1 class="nav-title">Profile</h1>
-
     <ul class="nav-links flex">
-
       <li class="home" ><a href="#">Home</a></li>
       <li><a href="#" class="active">My Profile</a></li>
       <li><a href="#">Find Connections</a></li>
       <li></li>
     </ul>
   </div>
-
-<div><input class="search" type="search" placeholder="Search"></div>
-
+  <div><input class="search" type="search" placeholder="Search"></div>
   <div>
-    <button class="signout">Sign Out</button>
+    <button onclick="myclick(this)" class="login">Login</button>
   </div>
-
 </div> 
 <!-- Nav Bar end -->
 
@@ -40,24 +32,24 @@
 <div class="pl flex">
   <div class="col leftc" >
   <!-- Profile Card start -->
-      <div class="container">
-        <div class="bluebanner"></div>
-        <div>
-          <img class="propic" src="./icons/JOJO and me LG 2018.jpg" alt="User Image">
-        </div>
-        <div class="contact" >  
-        <h1>Anthony Cavanaugh</h1>
-          <div class="flex"> <img class="mapmark" src="./icons/map-marker.png" alt="map pin"> 
-            <h2>New York</h2>
+        <div class="container">
+          <div class="bluebanner"></div>
+          <div>
+            <img class="propic" src="./icons/JOJO and me LG 2018.jpg" alt="User Image">
           </div>
-          <p>Developer (padawan) | Cook | Problem Solver</p>
-          <p>Master of shadows and the Internet!</p>
-          <div class="flex">
-            <a href="#"><img class="edit" src="./user_Icons/gear.png" alt="edit gear"></a>
-            <a href="#">edit profile</a>
+          <div class="contact" >
+          <h1>Anthony Cavanaugh</h1>
+            <div class="flex"> <img class="mapmark" src="./icons/map-marker.png" alt="map pin">
+              <h2>New York</h2>
+            </div>
+            <p>Developer (padawan) | Cook | Problem Solver</p>
+            <p>Master of shadows and the Internet!</p>
+            <div class="flex">
+              <a href="#"><img class="edit" src="./user_Icons/gear.png" alt="edit gear"></a>
+              <a href="#">edit profile</a>
+            </div>
           </div>
         </div>
-      </div>
   <!-- Profile Card end -->
   <!-- Education Card start -->
       <div class="container">
@@ -72,11 +64,12 @@
       </div>
   </div>
   <!-- Education card end -->
+  <!--  end of left column -->
 
   <div class="col rightc"> 
     <!-- Connnection request start -->
       <!-- connection header bar -->
-    <div class="request">
+    <div class="rightbox">
       <div class="greybar flex conheader">
         <div>
           <p class="concircle">2</p>
@@ -86,14 +79,14 @@
       <!-- header end -->
       <!-- request 1 begin -->
       <div>
-        <div class="reqlist flex">
+        <div class="todd reqlist flex">
           <div class="flex" >
             <img class="smpropic" src="./images/todd-s.jpg" alt="request picture">
             <p>Todd E</p>
           </div>
           <div>
-            <button class="checkbtn" > <img class="smpropic" src="./icons/accept-circle.png" alt=""></button>
-            <button class="checkbtn" > <img class="smpropic" src="./icons/close-circle.png" alt=""></button>
+            <button onclick="hide(inviteb)" class="checkbtn" > <img class="smpropic" src="./icons/accept-circle.png" alt=""></button>
+            <button onclick="hide(inviteb)" class="checkbtn" > <img class="smpropic" src="./icons/close-circle.png" alt=""></button>
           </div>
         </div>
         <!-- request 1 end -->
@@ -104,13 +97,15 @@
             <p>Phil K</p>
           </div>
           <div>
-            <button class="checkbtn" > <img class="smpropic" src="./icons/accept-circle.png" alt=""></button>
-            <button class="checkbtn" > <img class="smpropic" src="./icons/close-circle.png" alt=""></button>
+            <button onclick="hide(invite)"  class="checkbtn" > <img class="smpropic" src="./icons/accept-circle.png" alt=""></button>
+            <button onclick="hide(invite)" class="checkbtn" > <img class="smpropic" src="./icons/close-circle.png" alt=""></button>
           </div>
         </div>
       </div>
-    </div>
-    <div class="request">
+     </div> 
+    <!-- connection request end -->
+    <!-- existing connections -->
+    <div class="rightbox">
       <div class="greybar flex conheader">
         <p class="connectioncircle">500+</p>
         <p class="textr">Your Connections</p>
@@ -124,10 +119,12 @@
         <div class="flex" ><img class="smpropic consmpic" src="./images/arry-s.jpg" alt="request picture">
           <p>Arry Y</p></div>
         <div class="hyper">
-          <div class="view" ><a  href="#">View More</a></div>
+          <div><a href="#">View More</a></div>
         </div>
       </div>
      </div>
+     <!-- end of right column -->
 <!-- Two column end -->
+<script src="./script.js"></script>
 </body>
 </html>
